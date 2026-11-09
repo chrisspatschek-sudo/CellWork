@@ -17,7 +17,7 @@ everything runs in your browser and nothing you load ever leaves your device.
 
 ## Use it
 
-- **Online:** open the GitHub Pages site for this repository (see [Publishing](#publishing-on-github-pages)).
+- **Online:** [chrisspatschek-sudo.github.io/cellwork](https://chrisspatschek-sudo.github.io/CellWork/)
 - **Offline:** download `index.html` and open it in any current browser. It works without a connection.
 
 ## Features
@@ -100,14 +100,6 @@ python3 build.py --check   # exits with an error if index.html is out of date
 Always edit `src/index.template.html` and rebuild. The build computes SHA-256 hashes of the
 inline script and style blocks for the Content Security Policy, so hand edits to `index.html`
 stop the page from running.
-
-## Publishing on GitHub Pages
-
-1. Push this repository to GitHub.
-2. Go to **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`.
-3. The app will be available at `https://<your-user>.github.io/<repository>/`.
-
-The `.nojekyll` file makes Pages serve the files as they are.
 
 ## Security and privacy
 
